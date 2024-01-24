@@ -66,10 +66,15 @@ What was the first known computer? A: 1996 Apple Mac. B: abacus. C: Microsoft Su
 * Summary:
 
 * Key Terms:
-  
-Object-oriented design (OOD) is a widely used programming methodology.
-
-central processing unit (CPU)
+Main memory or random access memory: is connected directly to the CPU.
+Memory cells: an ordered sequence of the cells in main memory.
+Address: is a unique location in main memory for each cell.
+Secondary storage: a device that stores information permanently.
+Input devices: a device that feeds data and programs into a computer.
+Output devices:a device that the computer uses to display the results.
+Object-oriented design (OOD): is a widely used programming methodology.
+Central processing unit (CPU): is the brain of the computer.
+Compiler:a program that translates instructions written in a high-level language into the equivalent machine language.;
 
 Six steps are needed to execute a C++ program: edit, preprocess, compile, link, load, and execute.
 
@@ -78,7 +83,7 @@ Six steps are needed to execute a C++ program: edit, preprocess, compile, link, 
 * References:
 
 * Editor:
-  Wren King
+  Wren King, Cameron Smith
 
 
 
