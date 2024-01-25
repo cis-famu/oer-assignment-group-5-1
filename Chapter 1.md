@@ -33,12 +33,14 @@ This chapter covers:
   * The Language of a Computer
   What is the language of the computer? Machine code, also known as machine language, is the elemental language of computers. It is read by the computer's central processing unit (CPU), is composed of digital binary numbers and looks like a very long sequence of zeros and ones. Also, because digital signals are processed inside a computer, the language of a computer, called machine language, is a sequence of 0s and 1s. The digit 0 or 1 is called a binary digit, or bit. Sometimes a sequence of 0s and 1s is referred to as a binary code or a binary number .
 
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fdevopedia.org%2Funits-of-information&psig=AOvVaw10pfhOVEvsytDGbwx9FIEk&ust=1706240868068000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOjzodzQ94MDFQAAAAAdAAAAABAi
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/98242052/8cfee2db-c6e5-4233-9cb2-134c5b8db809)
+
 
   * The Evolution of programming languages
 Moving from machine language to assembly language made programming easier, but a programmer was still forced to think in terms of individual machine instructions. The next step toward making programming easier was to devise high-level languages that were closer to natural languages, such as English, French, German, and Spanish. Basic, FORTRAN, COBOL, C, C++, C#, Java, and Python are all high-level languages. You will learn the high-level language C++ in this book.
     
-https://www.google.com/imgres?imgurl=https%3A%2F%2Falmablog-media.s3.ap-south-1.amazonaws.com%2FBrief_History_of_Programming_Languages_b8fa03ba2a.jpg&tbnid=NuYH3YMCpGUXXM&vet=12ahUKEwjItue40_eDAxXuazABHfrjDfQQMygNegQIARBx..i&imgrefurl=https%3A%2F%2Fwww.almabetter.com%2Fbytes%2Farticles%2Fevolution-of-programming-languages&docid=HaCDmayOYQNStM&w=1000&h=450&q=The%20Evolution%20of%20Programming%20Languages&hl=en&ved=2ahUKEwjItue40_eDAxXuazABHfrjDfQQMygNegQIARBx
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/98242052/b3fe643a-67c1-474a-a950-a2a0061d16eb)
+
 
   * Processing a C++ program
 
