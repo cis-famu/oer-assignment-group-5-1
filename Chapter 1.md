@@ -134,7 +134,7 @@ grams = 3.0;
   * A Brief Overview of the History of Computers. Chapter 1 Section 2 Programming. (n.d.). [https://ng.cengage.com/static/nb/ui/evo/index.html?deploymentId=5999972473086198315902738132&eISBN=9780357425220&id=1997462656&snapshotId=3814784&](https://ng.cengage.com/static/nb/ui/evo/index.html?deploymentId=5999972473086198315902738132&eISBN=9780357425220&id=1997462656&snapshotId=3814784&)
   * Elements of a Computer System. Chapter 1 Section 8 Programming. (n.d.). [https://ng.cengage.com/static/nb/ui/evo/index.html?deploymentId=5999972473086198315902738132&eISBN=9780357425220&id=1997462656&snapshotId=3814784&]
 * Editor:
-  Wren King, Cameron Smith
+  Wren King, Cameron Smith, Xavier Blake
 
 
 
