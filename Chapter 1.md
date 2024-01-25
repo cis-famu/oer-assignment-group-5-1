@@ -36,8 +36,9 @@ This chapter covers:
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fdevopedia.org%2Funits-of-information&psig=AOvVaw10pfhOVEvsytDGbwx9FIEk&ust=1706240868068000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOjzodzQ94MDFQAAAAAdAAAAABAi
 
   * The Evolution of programming languages
-
+Moving from machine language to assembly language made programming easier, but a programmer was still forced to think in terms of individual machine instructions. The next step toward making programming easier was to devise high-level languages that were closer to natural languages, such as English, French, German, and Spanish. Basic, FORTRAN, COBOL, C, C++, C#, Java, and Python are all high-level languages. You will learn the high-level language C++ in this book.
     
+https://www.google.com/imgres?imgurl=https%3A%2F%2Falmablog-media.s3.ap-south-1.amazonaws.com%2FBrief_History_of_Programming_Languages_b8fa03ba2a.jpg&tbnid=NuYH3YMCpGUXXM&vet=12ahUKEwjItue40_eDAxXuazABHfrjDfQQMygNegQIARBx..i&imgrefurl=https%3A%2F%2Fwww.almabetter.com%2Fbytes%2Farticles%2Fevolution-of-programming-languages&docid=HaCDmayOYQNStM&w=1000&h=450&q=The%20Evolution%20of%20Programming%20Languages&hl=en&ved=2ahUKEwjItue40_eDAxXuazABHfrjDfQQMygNegQIARBx
 
   * Processing a C++ program
 
