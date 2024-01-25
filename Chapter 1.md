@@ -31,8 +31,9 @@ This chapter covers:
 ![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/98242052/e7a28f0f-02b8-438c-a1df-4112fce45755)
 
   * The Language of a Computer
+  What is the language of the computer? Machine code, also known as machine language, is the elemental language of computers. It is read by the computer's central processing unit (CPU), is composed of digital binary numbers and looks like a very long sequence of zeros and ones. Also, because digital signals are processed inside a computer, the language of a computer, called machine language, is a sequence of 0s and 1s. The digit 0 or 1 is called a binary digit, or bit. Sometimes a sequence of 0s and 1s is referred to as a binary code or a binary number .
 
-
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fdevopedia.org%2Funits-of-information&psig=AOvVaw10pfhOVEvsytDGbwx9FIEk&ust=1706240868068000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOjzodzQ94MDFQAAAAAdAAAAABAi
 
   * The Evolution of programming languages
 
