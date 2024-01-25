@@ -59,6 +59,11 @@ For example:
 
 
   * Programming with the Problem Analysis-Coding-Execution Cycle
+In order to be a good programmer and problem solver, you must have good problem solving techniques. Using an algorithm by analyzing a problem, outlining the problem requirements, and designing steps is a great technique to problem solving. The steps to the problem solving process in a programming environment include:
+1. Analyze and outline the problem and its solution requirements, and design an algorithm to solve the problem.
+2. We then implement the algorithm in a programming language and verify it works.
+3. Maintain the program by using and modifying it if the domain changes
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/156258551/8024d58a-7618-4133-b2b9-c5ca06a487c5)
 
 
 
