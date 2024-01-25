@@ -43,6 +43,18 @@ Moving from machine language to assembly language made programming easier, but a
 
 
   * Processing a C++ program
+Since computers can only understand machine language, there are steps that must be followed in order to process a program written in C++. In order to run a program, the code must first be translated into machine language. In order, the steps to do this are :
+1. Use a text editor to create a C++ program following the syntax of the high level language. The program is referred to as a source code, and must be saved in a text file that has the extension .cpp.
+
+For example:
+1. A file named Class1 complete name would be Class1.cpp.
+2. Statements that begin with # in C++ program are called preprocessor directives, and are processed by the preprocessor program
+3. The next step is to verify the program obeys the rules of programming language, and translate the program into equivalent machine language. The compiler checks the program for syntax errors, and if no errors are found translate the program into an equivalent machine language called object program.
+4. The integrated development environment, or IDE, develops the programs written in a high level language. The IDE contains many useful programs that help create your program, and once the program is developed and successfully compiled, you must still bring the code for the resources used from the IDE into your program to produce a final program that the computer can execute.The prewritten program resides in the library, and the program linker combines the object program with the program from the libraries.
+5. Next, the program called loader will load the executable program into main memory for execution.
+6. The last step is to execute the program.
+
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/156258551/5c0fe8fc-e63c-48a2-bdcc-593f1bb33552)
 
 
 
