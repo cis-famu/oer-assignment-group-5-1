@@ -20,9 +20,17 @@ Introduction:
 A section per topic:
 
 2.1 A Quick Look at a C++ Program
-
+In this chapter, you will learn the basic elements and concepts of the C++ programming language to create C++ programs. In addition to giving examples to illustrate various concepts, we will also show C++ programs to clarify these concepts. Every C++ program has a function called main. Thus, if a C++ program has only one function, it must be the function main. 
+https://www.guru99.com/images/2/072420_0712_CFunctionsw7.png
 2.2 The Basics of a C++ Program
-
+Comments:
+Typically, comments can be used to identify the authors of the program, give the date when the program is written or modified, give a brief explanation of the program, and explain the meaning of key statements in a program. Comments are for the reader, not for the compiler. So when a compiler compiles a program to check for the syntax errors, it completely ignores comments. Throughout this book, comments are shown in green.
+http://www.alexshill.com/projects/cxxdocument_1.png
+Special Symbols:
+The smallest individual unit of a program written in any language is called a token. C++’s tokens are divided into special symbols, word symbols, and identifiers. 
+Following are some of the special symbols:
+https://media.geeksforgeeks.org/wp-content/uploads/20220527101351/OperatorsinCPP.png
+Reserved Words:
 2.3 Data Types
 
 2.4 Data Types, Variables, and Assignment Statements
