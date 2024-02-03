@@ -31,8 +31,19 @@ The smallest individual unit of a program written in any language is called a to
 Following are some of the special symbols:
 https://media.geeksforgeeks.org/wp-content/uploads/20220527101351/OperatorsinCPP.png
 Reserved Words:
+Reserved words are also called keywords.Furthermore, reserved words cannot be redefined within any program; that is, they cannot be used for anything other than their intended use.
+https://www.sitesbay.com/cpp/images/keywords-in-cpp1.jpg
+Whitespaces:
+Every C++ program contains whitespaces. Whitespaces include blanks, tabs, and newline characters. In a C++ program, whitespaces are used to separate special symbols, reserved words, and identifiers. They can be used to make the program more readable.
 2.3 Data Types
+The objective of a C++ program is to manipulate data. Different programs manipulate different data. Although at first it may seem confusing, by being so type conscious, C++ has built-in checks to guard against errors.
+C++ data types fall into the following three categories:
 
+Simple data type
+
+Structured data type
+
+Pointers
 2.4 Data Types, Variables, and Assignment Statements
 
 2.5 Arithmetic Operators, Operator Precedence, and Expressions
