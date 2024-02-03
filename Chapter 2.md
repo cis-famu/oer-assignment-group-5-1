@@ -27,14 +27,20 @@ A section per topic:
 
 2.5 Arithmetic Operators, Operator Precedence, and Expressions
 
-Standard arithmetic operators allow us to manipulate integral and floating number data types, allowing the computer to calculate. The operators +, -, *, / can be used with both integral and floating number data types. Operands are numbers used to evaluate an operator. Unary operators have one operand while binary operators have two operands. When there are multiple arithmetic operators in an expression, C++ uses precedence rules to evaluate the expression. The operators * and / have a higher precedence than + and -. The three types of arithmetic expressions are integral expressions, floating-point expressions, and mixed expressions.  
+Standard arithmetic operators allow us to manipulate integral and floating number data types, allowing the computer to calculate. The operators +, -, *, / can be used with both integral and floating number data types. Operands are numbers used to evaluate an operator. Unary operators have one operand while binary operators have two operands. When there are multiple arithmetic operators in an expression, C++ uses precedence rules to evaluate the expression. The operators * and / have a higher precedence than + and -. The three types of arithmetic expressions are integral expressions, floating-point expressions, and mixed expressions.
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/156258551/e584a71f-c81e-4746-9faf-e0427984c3fb)
+
 2.6 Type Conversion (Casting)
 
 Implicit type coercion occurs when a value of one data type is automatically changed to another data type. Cast operators are used to avoid implicit type coercion. The expression is evaluated, then its value is converted to the value type specified by dataTypeName. To convert a floating-point number to an integer, you must drop the decimal part of the floating number. Cast operators are also used to convert char data values into int data values and int data values into char data values. 
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/156258551/4274b36e-3af7-467d-9ec0-899eeb7ba194)
+
 
 2.7 string Type
 
 String is a program-defined data type not directly available for use in a program like simpler data types. In order to use this data type, you must access program components from the library. A string is also defined as a sequence of zero or more characters and is enclosed in double quotation marks. A null/empthy string is a string containing no characters. Each character in a string has a relative position with the first character being 0. 
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/156258551/1c8de2d2-22e2-4808-a95e-bc1254d76820)
+
 2.8 Variables, Assignment Statements, and Input Statements
 
 When you instruct the computer to allocate memory, you tell it not only what names to use for each memory location, but also what type of data to store in those memory locations. 
