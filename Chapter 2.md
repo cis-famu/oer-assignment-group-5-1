@@ -26,9 +26,9 @@ A section per topic:
 2.4 Data Types, Variables, and Assignment Statements
 
 2.5 Arithmetic Operators, Operator Precedence, and Expressions
-
+Standard arithmetic operators allow us to manipulate integral and floating number data types, allowing the computer to calculate. The operators +, -, *, / can be used with both integral and floating number data types. Operands are numbers used to evaluate an operator. Unary operators have one operand while binary operators have two operands. When there are multiple arithmetic operators in an expression, C++ uses precedence rules to evaluate the expression. The operators * and / have a higher precedence than + and -. The three types of arithmetic expressions are integral expressions, floating-point expressions, and mixed expressions.  
 2.6 Type Conversion (Casting)
-
+Implicit type coercion occurs when a value of one data type is automatically changed to another data type. Cast operators are used to avoid implicit type coercion. The expression is evaluated, then its value is converted to the value type specified by dataTypeName. To convert a floating-point number to an integer, you must drop the decimal part of the floating number. Cast operators are also used to convert char data values into int data values and int data values into char data values. 
 2.7 string Type
 
 2.8 Variables, Assignment Statements, and Input Statements
