@@ -30,7 +30,7 @@ Standard arithmetic operators allow us to manipulate integral and floating numbe
 2.6 Type Conversion (Casting)
 Implicit type coercion occurs when a value of one data type is automatically changed to another data type. Cast operators are used to avoid implicit type coercion. The expression is evaluated, then its value is converted to the value type specified by dataTypeName. To convert a floating-point number to an integer, you must drop the decimal part of the floating number. Cast operators are also used to convert char data values into int data values and int data values into char data values. 
 2.7 string Type
-
+String is a program-defined data type not directly available for use in a program like simpler data types. In order to use this data type, you must access program components from the library. A string is also defined as a sequence of zero or more characters and is enclosed in double quotation marks. A null/empthy string is a string containing no characters. Each character in a string has a relative position with the first character being 0. 
 2.8 Variables, Assignment Statements, and Input Statements
 
 When you instruct the computer to allocate memory, you tell it not only what names to use for each memory location, but also what type of data to store in those memory locations. 
