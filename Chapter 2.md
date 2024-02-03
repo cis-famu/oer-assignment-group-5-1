@@ -1,0 +1,103 @@
+Introduction C++ Programming
+
+OER Group-5 Chapter #2
+
+Objective: After completing this chapter students will be able to:
+Identify input and output streams
+Read data from the standard input device
+Describe input stream functions get, ignore, putback, and peek
+Write data to the standard output device
+Use manipulators in a program to format output
+Perform input and output operations using the string data type
+Read data from a file (include examples)
+Write data to a file (include examples)
+
+
+Introduction: 
+
+A section per topic:
+
+2.1 A Quick Look at a C++ Program
+
+2.2 The Basics of a C++ Program
+
+2.3 Data Types
+
+2.4 Data Types, Variables, and Assignment Statements
+
+2.5 Arithmetic Operators, Operator Precedence, and Expressions
+
+2.6 Type Conversion (Casting)
+
+2.7 string Type
+
+2.8 Variables, Assignment Statements, and Input Statements
+
+When you instruct the computer to allocate memory, you tell it not only what names to use for each memory location, but also what type of data to store in those memory locations. 
+Some data must stay the same throughout a program. For example, the conversion formula that converts inches into centimeters is fixed, because 1 inch is always equal to 2.54 centimeters. When stored in memory, this type of data needs to be protected from accidental changes during program execution.
+When a variable is declared, C++ may not automatically put a meaningful value in it. In other words, C++ may not automatically initialize variables. For example, the int and double variables may not be initialized to 0, as happens in some programming languages. 
+
+<img width="210" alt="Screenshot 2024-02-02 at 7 13 13 PM" src="https://github.com/cis-famu/oer-assignment-group-5-1/assets/98242052/c05c7266-2029-4e92-9b9a-8276bf82773e">
+
+2.9 Increment and Decrement Operators
+
+2.10 Output
+
+2.11 Preprocessor Directives
+
+2.12 Creating a C++ Program
+
+A C++ program is a collection of functions, one of which is the function main. Therefore, if a C++ program consists of only one function, then it must be the function main. 
+You can divide a C++ program into two parts: preprocessor directives and the program. The basic parts of the function main are the heading and the body. The first line of the function main, that is int main()
+
+<img width="220" alt="Screenshot 2024-02-02 at 7 22 07 PM" src="https://github.com/cis-famu/oer-assignment-group-5-1/assets/98242052/6be19fa4-1fca-46ed-b7c0-ee458318f7fc">
+
+
+2.13 Debugging: Understanding and Fixing Syntax Errors
+
+When you type a program, typos and unintentional syntax errors are likely to occur. Therefore, when you compile a program, the compiler will identify the syntax error. In this section, we show how to identify and fix syntax errors. It is best to try to correct the errors in top-down fashion because the first error may confuse the compiler and cause it to flag multiple subsequent errors when actually there was only one error on an earlier line. So, let’s first consider the following error:
+
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/98242052/7b54eedd-e215-4019-b349-283fa24c5613)
+
+2.14 Program Style and Form
+
+In C++, you use one or more blanks to separate numbers when data is input. Blanks are also used to separate reserved words and identifiers from each other and from other symbols. Blanks must never appear within a reserved word or identifier. It is very common for the omission of a single character to cause four or five error messages. However, when the first syntax error is removed and the program is recompiled, subsequent syntax errors caused by this syntax error may disappear.
+
+<img width="392" alt="Screenshot 2024-02-02 at 7 45 51 PM" src="https://github.com/cis-famu/oer-assignment-group-5-1/assets/98242052/8789dd05-8f4a-4d66-880b-18e6a2a017b6">
+
+Review Questions:
+What function does every C++ program have? ans main
+
+WHat does the compiler ignore: ans commas
+
+Summary:
+* Reserved words cannot be used as identifiers in a program.
+
+* All reserved words in C++ consist of lowercase letters (see Appendix A).
+
+* In C++, identifiers are names of things.
+
+* A C++ identifier consists of letters, digits, and underscores and must begin with a letter or underscore.
+
+* Whitespaces include blanks, tabs, and newline characters.
+
+* A data type is a set of values together with a set of allowed operations.
+
+* C++ data types fall into the following three categories: simple, structured, and pointers.
+
+* There are three categories of simple data: integral, floating point, and enumeration.
+
+Key Terms:
+
+Data type double, float, long double: used to manuoulate decimal numbers
+
+Mixed expression: an expression that consist of both integers and decimal numbers
+
+" \ ": escape character
+
+
+References:
+
+Chapter 2 Section 12 . (n.d.). https://ng.cengage.com/static/nb/ui/evo/index.html?snapshotId=3814784&id=1997462638&deploymentId=5999972473086198315902738132&eISBN=9780357425220 Accessed 2-2-2024
+
+Editor: Wren King, Cameron Smith, Xavier Blake, Channing Wyatt
