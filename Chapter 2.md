@@ -42,6 +42,7 @@ When a variable is declared, C++ may not automatically put a meaningful value in
 2.9 Increment and Decrement Operators
 
  In C++, we have these little tools called increment (++) and decrement (--) operators. They are great for quickly adding or subtracting one from a variable. These operators have two versions: pre-increment/post-increment and pre-decrement/post-decrement. The pre-increment (++variable) bumps up the variable before using its value in an expression, while the post-increment (variable++) uses the current value and then increments it afterward. Similar rules apply to pre-decrement (--variable) and post-decrement (variable--). The critical thing to grasp is when the variable gets modified about its expression. These operators are handy for tasks like counting or tweaking variable values in C++ programs.
+ ![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/156258733/e1b934ce-38f9-4a83-8039-0b3a5331ae30)
 
 2.10 Output
 
@@ -49,12 +50,13 @@ In C++ programming, output facilitation is realized through cout and the stream 
 Manipulators, exemplified by endl for line breaks, contribute to the structured formatting of outputs. In the output, C++ accommodates a diverse range of entities, spanning numerical values, strings, and the outcomes of expressions. The judicious use of newline characters (\n) and escape sequences, such as \t for tabulation, empowers developers to exercise precision over the spatial arrangement of output elements.
 In essence, mastery of cout, <<, and associated manipulators provides a nuanced command over the communicative aspect of C++ programming, enabling meticulous control over the visual representation of program outputs. Real-world examples elucidate the practical application of these principles within the coding domain.
 
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/156258733/1a2558ea-fe87-479c-a46b-39b773ab1dc9)
 2.11 Preprocessor Directives
 
 In C++ development, achieving organized and readable code is crucial, made possible by leveraging preprocessor directives and header files. Since C++ has limited explicitly defined operations, libraries containing essential functionalities use headers. Preprocessor directives, signaled by #, guide a preprocessor program in modifying code before compilation. For instance, the directive #include <iostream> connects the iostream header, introducing vital components like cin and cout for input/output tasks. These directives are strategically placed at the start of a program, ensuring that identifiers are available throughout the code. Additionally, developers can create their header files to facilitate modular code design.
 Understanding the role of the std namespace is crucial, mainly when working with identifiers such as cin and cout. Initially declared within this namespace, these identifiers can be accessed by explicitly referencing them as std::cin and std::cout or using the namespace std; statement after including the corresponding header file. This declaration eliminates the need for the std:: prefix in subsequent references, contributing to improved code readability. Embracing preprocessor directives and leveraging namespaces optimizes code structure and enhances accessibility to essential features.
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/156258733/0fc0ed79-838a-4add-9fc9-d556824d93e6)
 
-example 
 
 2.12 Creating a C++ Program
 
