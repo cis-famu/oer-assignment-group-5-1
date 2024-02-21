@@ -33,9 +33,11 @@ A section per topic:
 3.4 Output and Formatting Output
 
 3.5 Additional Output Formatting Tools
+When working with C++ and formatting output, the setfill manipulator becomes essential. It lets you choose the character you want to use to fill up extra space in your output. When you combine it with setw, which sets the width of your output fields, and other manipulators like left and right for aligning text, you gain much control over how your output looks. By including the <iomanip> header and using cout << setfill(character) along with setw, left, or right, you can customize your output to look just the way you want it. This means you can create polished output that fits your needs perfectly, giving your C++ programs a more professional and flexible appearance.
 
 3.6 Input/Output and the string type 
-
+You can use input stream variables like cin and the extraction operator >> to read strings into string variables. However, this method has limitations, as it stops at whitespace characters, making it unsuitable for strings containing spaces. To handle such cases, you can employ the getline function, which reads until the end of the current line, effectively capturing strings with spaces. For outputting string variables, you can utilize an output stream variable such as cout paired with the insertion operator <<, enabling you to display the string variable’s contents on the output stream. You can effectively manage string inputs and outputs in your programs using these techniques.
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/156258733/1a7877ea-71c5-45ae-a5f6-536a7b6a0b78)
 3.7 Debugging: Understanding Logic Errors and Debugging with cout Statements
 
 3.8 File Input/Output 
