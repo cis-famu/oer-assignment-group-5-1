@@ -32,6 +32,7 @@ Recall that the standard input device is usually the keyboard, and the standard 
 ifstream cin;
 ofstream cout;
 3-1a. cin and the Extraction Operator>>
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/156130748/7f3ac1af-2e3f-41c2-a6ac-e4e238b1f5c8)
 
 3.2 Using Predefined Functions in a Program
 
