@@ -25,6 +25,13 @@ Distinguish how to use debug logic errors
 A section per topic:
 
 3.1 I/O Streams and Standard I/O Devices
+In C++, I/O is a sequence of bytes, called a stream, from the source to the destination.
+Recall that the standard input device is usually the keyboard, and the standard output device is usually the screen. To receive data from the keyboard and send output to the screen, every C++ program must use the header file iostream. This header file contains, among other things, the definitions of two data types, istream (input stream) and ostream (output stream). 
+#include <iostream>
+
+ifstream cin;
+ofstream cout;
+3-1a. cin and the Extraction Operator>>
 
 3.2 Using Predefined Functions in a Program
 
@@ -57,12 +64,21 @@ Summary:
 * When inputting data into a variable, the operator >> skips all leading whitespace characters.
 
 Key Terms:
+stream: a sequence of characters from the source to the destination
+input stream: A sequence of characters from an input device to the computer.
+output stream: A sequence of characters from the computer to an output device.
+common input: the variable cin is named after this
+common output: the variable cout is named after this
+input stream variables: variables of the type istream
+output stream variables:variables of the type ostream
+stream variable: either an input stream variable or an output stream variable
 
 Ignore: used to kip data in a line 
 
 cin (common input): used to initialize the standard output device 
 
 Output stream: a stream from the computer to a destination. 
+
 
 References:
 
