@@ -37,8 +37,12 @@ ofstream cout;
 3.2 Using Predefined Functions in a Program
 
 3.3 Input Failure
+Although a program may be syntactically correct, wrong results may be produced. Invalid data can also result in an input failure if the corresponding variables do not match. A program can also enter a fail state, resulting in I/O statements being ignored. When an input stream is in a failed state, you can use the stream function clear to restore the input stream to a working state. After using the stream function, you will need to clear the rest of the garbage from the input stream by using the ignore function.  
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/156258551/76bd85a6-01ae-4b05-a5b1-15bb347a31a9)
 
 3.4 Output and Formatting Output
+The manipulator set precision is used to control the output of floating-point numbers. By setting the set precision manipulator precision to 2, this allows the floating-point to output to two decimal places. To output floating-point numbers in a fixed decimal formatt, use the manipulator fixed. You can use the unsetf stream member function to disable the fixed manipulator. The manipulator scientific outputs floating-point numbers in scientific formatt. The manipulator showpoint forces the output to show the decimal point and trailing zeros.  
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/156258551/1f3dcf60-b0bc-4ad0-8fb0-fa272ae6d599)
 
 3.5 Additional Output Formatting Tools
 When working with C++ and formatting output, the setfill manipulator becomes essential. It lets you choose the character you want to use to fill up extra space in your output. When you combine it with setw, which sets the width of your output fields, and other manipulators like left and right for aligning text, you gain much control over how your output looks. By including the <iomanip> header and using cout << setfill(character) along with setw, left, or right, you can customize your output to look just the way you want it. This means you can create polished output that fits your needs perfectly, giving your C++ programs a more professional and flexible appearance.
