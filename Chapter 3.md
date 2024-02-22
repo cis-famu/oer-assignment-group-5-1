@@ -87,7 +87,12 @@ cin (common input): used to initialize the standard output device
 
 Output stream: a stream from the computer to a destination. 
 
+Programming excercises: 
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/98242052/86dd4684-f88f-4b73-9842-ba4139ff594d)
 
 References:
+Input/Output . (n.d.). https://ng.cengage.com/static/nb/ui/evo/index.html?deploymentId=5999972473086198315902738132&eISBN=9780357425220&snapshotId=3814784&id=1997462715& 
+
+Input/Output . (n.d.). https://ng.cengage.com/static/nb/ui/evo/index.html?deploymentId=5999972473086198315902738132&eISBN=9780357425220&id=1997462715&snapshotId=3814784&
 
 Editor: Wren King, Cameron Smith, Xavier Blake, Channing Wyatt
