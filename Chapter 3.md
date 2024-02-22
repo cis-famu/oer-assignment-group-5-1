@@ -46,12 +46,19 @@ When working with C++ and formatting output, the setfill manipulator becomes ess
 3.6 Input/Output and the string type 
 You can use input stream variables like cin and the extraction operator >> to read strings into string variables. However, this method has limitations, as it stops at whitespace characters, making it unsuitable for strings containing spaces. To handle such cases, you can employ the getline function, which reads until the end of the current line, effectively capturing strings with spaces. For outputting string variables, you can utilize an output stream variable such as cout paired with the insertion operator <<, enabling you to display the string variable’s contents on the output stream. You can effectively manage string inputs and outputs in your programs using these techniques.
 ![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/156258733/1a7877ea-71c5-45ae-a5f6-536a7b6a0b78)
+
 3.7 Debugging: Understanding Logic Errors and Debugging with cout Statements
+Syntax errors are reported by the compiler, and the compiler not only reports syntax errors, but also gives some explanation about the errors. On the other hand, logic errors are typically not caught by the compiler except for the trivial ones such as using a variable without properly initializing it.
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/98242052/89b82278-dec0-4c4f-8721-6574dca4bd69)
 
 3.8 File Input/Output 
+If the amount of input data is large, however, it is inefficient to type it at the keyboard each time you run a program. In addition to the inconvenience of typing large amounts of data, typing can generate errors, and unintentional typos cause erroneous results. You must have some way to get data into the program from other sources. By using alternative sources of data, you can prepare the data before running a program, and the program can access the data each time it runs. This section discusses how to obtain data from other input devices, such as a flash drive (that is, secondary storage), and how to save the output to a flash drive.
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/98242052/5325b244-2599-4ef5-ab0b-18fde5e7a4c1)
 
 Review Questions:
-
+* To use cin and cout, which prorgram must be included in the header?; Ans: iostream
+* What does the function peek do?; Ans: it returns the character from the next input stream but does not remove the character from the input stream.
+* Define what ignore does; Ans: it is used to skip data in a line 
 
 Summary:
 * A stream in C++ is an infinite sequence of characters from a source to a destination.
