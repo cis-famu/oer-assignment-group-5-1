@@ -22,8 +22,15 @@ A section per topic:
 4.3 Using Psuedocode to Develop, Test, and Debug a Program
 
 4.4 s w i t c h Structures:
+In C++, switch, case, break, and default are reserved words. In a switch structure, first the expression is researched. The expression is sometimes called the selector. Its value determines which statement is selected for execution. A case value should only appear once. You can use a switch statement only under these conditions: when value expression is matched againts a case value, the exrpession value does not match any case values, and a break statement causing an immediate exit from the switch structure. 
+
+https://college.cengage.com/nextbook/shared/programming/malik_9781337102087/images/02087_ch04_228a-t2.jpg?token=404CB44BD8F63C3D70F4F4C4BD8AC1B02AAF60C1305B25D58E29743D48C1A9DF76AA42EDF502E0FE5868BA89C1151D6C36E1AD6ADE39C365D90C792022C4142B62E300F5BC5A8DB6
 
 4.5 Terminating a Program with the a s s e r t Function 
+
+In C++, certain types of errors, like division by zero, can be difficult to catch. To help with this, C++ have a function named assert. Assert is used to identify and stop an error in a code. If necessary, it can also be used to delete the code. The assert statement is very useful for enforcing programming constraints. Although assert statements are useful during program development, after a program has been developed and put into use, if an assert statement fails for some reason, an end user would have no idea what the error means. Therefore, after you have developed and tested a program, you might want to remove or disable the assert statements. 
+
+https://college.cengage.com/nextbook/shared/programming/malik_9781337102087/images/02087_ch04_237f-t2.jpg?token=404CB44BD8F63C3D70F4F4C4BD8AC1B02AAF60C1305B25D58E29743D48C1A9DF76AA42EDF502E0FE5868BA89C1151D6C36E1AD6ADE39C365D90C792022C4142B62E300F5BC5A8DB6![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/98242052/6c299a2e-dceb-4441-9367-e6ffd423b1ce)
 
 
 Review Questions:
@@ -44,6 +51,7 @@ Key Terms:
 * a s s e r t: used to terminate functions
 
 Programming excercises: 
+
 Evaluate 6 * 6 == 90/7
 
 '9' <= '8'
