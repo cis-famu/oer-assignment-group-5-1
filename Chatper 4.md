@@ -18,6 +18,10 @@ A section per topic:
 4.1 Control Structures: 
 
 4.2 Relational Operators and s t r i n g Type
+Compund statements or blocks of statements are used to permit more complex statements. These statements consist of one or more statements enclosed in curly braces, { and }. One control statement located inside another is defined as nested. An else statement is paired with the last incomplete if statement. Short-circuit evalution is a process in which the computer evaluates a logical expression from left to right and stops as soon as the final value of the expression is known.
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/156258551/f26959ec-212a-47fe-9696-b218668fb35e)
+
+4.3 Using Psuedocode to Develop, Test, and Debug a Program
 
 4.3 Using Psuedocode to Develop, Test, and Debug a Program
  In the development process, we commence with an initial concept outlined through pseudocode, akin to a rough sketch. We refine the code using C++, meticulously addressing variable declaration, error rectification, and comprehensive testing across various scenarios. Using iterative refinement guided by testing outcomes, we ultimately arrive at a finalized program complemented by documentation for future maintenance. This structured methodology underscores the importance of methodical planning, rigorous testing, and continual software development improvement, with pseudocode as a vital tool in conceptualization and refinement.
