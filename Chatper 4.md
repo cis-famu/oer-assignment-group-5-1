@@ -108,6 +108,12 @@ Summary:
 * Programs can be terminated using the a s s e r t fumnction if conditions are not met in a program. 
 
 Key Terms:
+* Logical expression: An expression that evaluates to true or false is called a logical expression.
+* Logical (Boolean) expressions: an expression that has a value of either true or false
+* Decision maker: the expression in an if statement which determines whether to execute the statement that follows it
+* Action statement: the statement following the expression in an if statement
+* Associativity: the order in which operators are grouped and evaluated
+
 * !=: Not equal to 
 * Semantic error: Error due to invalid user writing
 * a s s e r t: used to terminate functions
