@@ -9,6 +9,7 @@ Introduction:
 
 
 A section per topic:
+
 4.1 Control Structures: 
 
 4.2 Relational Operators and s t r i n g Type
