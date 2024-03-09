@@ -21,7 +21,10 @@ A section per topic:
 
 4.3 Using Psuedocode to Develop, Test, and Debug a Program
  In the development process, we commence with an initial concept outlined through pseudocode, akin to a rough sketch. We refine the code using C++, meticulously addressing variable declaration, error rectification, and comprehensive testing across various scenarios. Using iterative refinement guided by testing outcomes, we ultimately arrive at a finalized program complemented by documentation for future maintenance. This structured methodology underscores the importance of methodical planning, rigorous testing, and continual software development improvement, with pseudocode as a vital tool in conceptualization and refinement.
+
 https://www.wikihow.com/images/thumb/a/a8/1494423-2.jpg/v4-460px-1494423-2.jpg.webp
+
+
 4.4 Structures 
 In C++, switch, case, break, and default are reserved words. In a switch structure, first the expression is researched. The expression is sometimes called the selector. Its value determines which statement is selected for execution. A case value should only appear once. You can use a switch statement only under these conditions: when value expression is matched againts a case value, the exrpession value does not match any case values, and a break statement causing an immediate exit from the switch structure. 
 
