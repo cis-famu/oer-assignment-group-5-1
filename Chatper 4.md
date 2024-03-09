@@ -14,6 +14,7 @@ In this Chapter, we read how to tell a computer it is incorrect regarding its se
 
 
 A section per topic:
+
 4.1 Control Structures: 
 
 4.2 Relational Operators and s t r i n g Type
