@@ -14,8 +14,61 @@ In this Chapter, we read how to tell a computer it is incorrect regarding its se
 
 
 A section per topic:
-
+ 
 4.1 Control Structures: 
+Control structures provide alternatives to sequential program execution and are used to alter the sequential flow of execution. The two most common control structures are selection and repetition. In selection, the program executes particular statements depending on some condition(s). In repetition, the program repeats particular statements a certain number of times based on some condition(s).
+
+4.1a) Selection if and if-else, expressions using these operators always evaluate to true or false.
+
+Relational Operations 
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/156130748/f8274f5d-0215-4565-a593-b6f7047ecedb)
+
+4.1b) Relational Operators and Simple Data Type 
+
+
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/156130748/f1fa77f9-c992-40ec-b08c-537c5fb92095)
+
+4.1c) Comparing Characters
+
+For char values, whether an expression using relational operators evaluates to true or false depends on a machine’s collating sequence. 
+
+Now that we know how relational operators work, we can start learning how to implement decisions in a C++ program. Although there are only two logical values, true and false, they turn out to be extremely useful because they permit programs to incorporate decision making that alters the processing flow. The remainder of this chapter discusses ways to incorporate decisions into a program. In C++, there are two selections, or branch control structures: if statements and the switch structure. This section discusses how if and if. . .else statements can be used to create one-way selection, two-way selection, and multiple selections. The switch structure is discussed later in this chapter.
+
+4.1d) One Way Selection
+
+In C++, one-way selections are incorporated using the if statement. The syntax of one-way selection is:
+
+
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/156130748/223d9b50-938b-4f6e-91aa-e827ac9ee3b7)
+
+The expression is usually a logical expression. If the value of the expression is true, the statement executes. If the value is false, the statement does not execute.
+
+4.1e) Two Way Selection
+
+To choose between two alternatives—that is, to implement two-way selections—C++ provides the if. . .else statement. Two-way selection uses the following syntax:
+
+
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/156130748/c873f989-c735-42ed-8ee5-5c5e7b7bbc2b)
+
+In a two-way selection, if the value of the expression is true, statement1 executes. If the value of the expression is false, statement2 executes.
+
+4.1f) Data Type and Logical(Boolean) Expressions
+
+Earlier versions of C++ did not provide built-in data types that had logical (or Boolean) values true and false . Because logical expressions evaluate to either 1 or 0, the value of a logical expression was stored in a variable of the data type int . Therefore, you can use the int data type to manipulate logical (Boolean) expressions.
+
+4.1g) bool Data Type and Logical(Boolean) Expressions
+
+More recent versions of C++ contain a built-in data type, bool, that has the logical (Boolean) values true and false. Therefore, you can manipulate logical (Boolean) expressions using the bool data type. Recall that in C++, bool, true, and false are reserved words. In addition, the identifier true has the value 1, and the identifier false has the value 0.
+
+4.1h) Logical(Boolean) Operators and Logical Expressions
+
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/156130748/3e730219-ed82-42e9-b1f7-615fa222aef9)
+
+4.1i) Order of Precedence 
+
+![image](https://github.com/cis-famu/oer-assignment-group-5-1/assets/156130748/4b3abcc2-22ef-453d-987e-ee63ef1c63e1)
+
+Using the precedence rules in an expression, relational and logical operators are evaluated from left to right. Because relational and logical operators are evaluated from left to right, the associativity of these operators is said to be from left to right.
 
 4.2 Relational Operators and s t r i n g Type
 Compund statements or blocks of statements are used to permit more complex statements. These statements consist of one or more statements enclosed in curly braces, { and }. One control statement located inside another is defined as nested. An else statement is paired with the last incomplete if statement. Short-circuit evalution is a process in which the computer evaluates a logical expression from left to right and stops as soon as the final value of the expression is known.
